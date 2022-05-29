@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="icon.ico">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<title>Maheshwar using Accents | Fun Moments</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body onload="show();">
+    <div id = "myDiv">
+    	<div>
+        <img id = "myImage" src = "../images/intro.gif" class="intro">
+        </div>
+    </div>
+    <div id="content" style="display: none;"> 
+	<header>
+		<div>
+			<a href="10k.html"><img src="../images/logo.png" class="logo"></a>
+		</div>
+			<nav>
+				<ul>
+					<li><a href="10k.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">More</a></li>
+				</ul>
+			</nav>
+	</header>
+	<video-page>
+		<section id="yt-arava">
+			<iframe src="https://drive.google.com/file/d/10JjQ9kaU-T1rtlUrH5mONZf74ukew6xg/preview" class="iframe" allow="autoplay" allowfullscreen=""></iframe>
+			<h1 class="video-titles">Maheshwar using Accents</h1>
+		</section>
+		<section id="video-details">
+			<div class="profile">
+				<div>
+				<img src="../images/icon/arava.jpg" class="arava-pic">
+				</div>
+				<div>
+				<h1 class="name">Arava</h1>
+				</div>
+				<br>
+				<p class="video-desc">Maheshwar says "Waer"</p>
+			</div>
+		</section>
+	</video-page>
+
+</body>
+<script type = "text/javascript">
+    function show() {
+        document.getElementById("myDiv").style.display="block";
+        setTimeout("hide()", 1000); // 1 wait, change the delay here
+    }
+
+    function hide() {
+        document.getElementById("myDiv").style.display="none";
+        document.getElementById("content").style.display="block";
+    }
+</script>
+</html>
