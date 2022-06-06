@@ -78,19 +78,40 @@ ul li a:hover {
 	color: #fff;
 	border-radius: 40px;
 	border-color: transparent;
-
+	transition: 0.22s;
+}
+.button-school-stuff-1:hover {
+	font-size: 34px;
 }
 .button-school-stuff-2 {
 	width: 327px;
 	height: 70px;
 	margin-top: 10px;
-	font-size: 27px;
+	font-size: 30px;
 	background: #00C329;
 	color: #fff;
 	border-radius: 40px;
 	border-color: transparent;
+	transition: 0.22s;
 
+}
+.button-school-stuff-2:hover {
+	font-size: 34px;
+}
+.button-school-stuff-mv {
+	width: 327px;
+	height: 70px;
+	margin-top: 10px;
+	font-size: 25px;
+	background: #00C329;
+	color: #fff;
+	border-radius: 40px;
+	border-color: transparent;
+	transition: 0.22s;
 
+}
+.button-school-stuff-mv:hover {
+	font-size: 27px;
 }
 .button-school-stuff-3 {
 	width: 327px;
@@ -101,8 +122,11 @@ ul li a:hover {
 	color: #fff;
 	border-radius: 40px;
 	border-color: transparent;
+	transition: 0.22s;
 
-
+}
+.button-school-stuff-3:hover {
+	font-size: 34px;
 }
 .button-school-stuff-4 {
 	width: 327px;
@@ -113,8 +137,12 @@ ul li a:hover {
 	color: #fff;
 	border-radius: 40px;
 	border-color: transparent;
-
+	transition: 0.22s;
 }
+.button-school-stuff-4:hover {
+	font-size: 34px;
+}
+
 .button-school-stuff-5 {
 	width: 327px;
 	height: 70px;
@@ -124,9 +152,13 @@ ul li a:hover {
 	color: #fff;
 	border-radius: 40px;
 	border-color: transparent;
-
+	transition: 0.22s;
 
 }
+.button-school-stuff-5:hover {
+	font-size: 34px;
+}
+
 .button-school-stuff-6 {
 	width: 327px;
 	height: 70px;
@@ -136,9 +168,13 @@ ul li a:hover {
 	color: #fff;
 	border-radius: 40px;
 	border-color: transparent;
-
+	transition: 0.22s;
 
 }
+.button-school-stuff-6:hover {
+	font-size: 34px;
+}
+
 .hr-btwn-book {
 	margin-left: 40px;
 }
