@@ -3,6 +3,7 @@ body {
 	background: #121212;
 	margin: 0;
 }
+
 .logo {
 	width: 115px;
 	margin-top: -3px;
@@ -315,7 +316,7 @@ ul li a:hover {
 .created {
 	color: #fff;
 	margin-left: 30px;
-	font-size: 20px;
+	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
 }
 .classk{

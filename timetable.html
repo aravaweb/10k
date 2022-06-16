@@ -16,6 +16,29 @@
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<title>LearnArava</title>
 </head>
+<style>
+.wrap {
+  overflow-x:hidden;
+}
+.slideInRight {
+  animation-name: slideInFromLeft;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+}
+
+</style>
 <body>
 	<header>
 		<div>
@@ -32,7 +55,7 @@
 
 	<center>
 		<h1 class="heading">10K TimeTable</h1>
-		<table border="2" bordercolor="white" bgcolor="WHITE" width="90%" align="CENTER" cellpadding="0" cellspacing="0" style=" border-radius: 15px;">
+		<table border="2" bordercolor="white" bgcolor="WHITE" width="90%" align="CENTER" cellpadding="0" cellspacing="0" style=" border-radius: 15px;" class="slideInRight animated">
 <tbody>
 <tr bordercolour="white" bgcolor="#d64f00" align="CENTER" height="50px" style=" border-top-left-radius: 15px; border-top-right-radius: 15px;">
 <th style=" border-top-left-radius: 13px;"><h3><b><i><u>X-K</u></i></b></h3></th>

@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="icon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/transitions.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
@@ -16,7 +17,29 @@
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<title>Class 10K | Fun Moments</title>
 </head>
+<style type="text/css">
+	.popOver {
+    -webkit-animation: bummer 1s;
+    animation: bummer 1s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; /* Add this so that your modal doesn't 
+                                      close after the animation completes */
+}
 
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1); 
+    }
+}
+
+@keyframes bummer {
+    100% {
+        transform: scale(1,1); 
+    }
+}
+</style>
 	<header>
 		<div>
 			<a href="class-home.html"><img src="images/logo.png" class="logo"></a>
@@ -31,7 +54,9 @@
 	</header>
 
 	<center>
+		<div class="popOver">
 		<h1 class="disclaimer">Videos here are just for an ENTERTAINMENT PURPOSES ONLY.</h1>
+	</div>
 		</center>
 <hr>
 		<section id="video-list">

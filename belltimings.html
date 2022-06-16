@@ -17,6 +17,29 @@
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<title>LearnArava</title>
 </head>
+<style>
+.wrap {
+  overflow-x:hidden;
+}
+.slideInRight {
+  animation-name: slideInRight;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+</style>
 <body>
 	<header>
 		<div>
@@ -31,7 +54,7 @@
 			</nav>
 	</header>
 <center>
-		<section id="tt-split">
+		<section class="slideInRight animated">
 			<div>
 		<table border="2" class="timetable">
 <tbody>
@@ -121,4 +144,11 @@
 </section>
 </center>
 </body>
+<script type="text/javascript">
+	function script(){
+     setTimeout(function(){
+         document.getElementById('elementToMove').style.left = '1000px'; // new left position is 1000px in this example
+     }, 2000); // 2000 = 2 seconds after page load
+}
+</script>
 </html>
