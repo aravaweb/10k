@@ -2,11 +2,13 @@ body {
 	font-family: 'Square Peg', cursive;
 	background: #121212;
 	margin: 0;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 .logo {
 	width: 115px;
 	margin-top: -3px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 header {
 	display: flex;
@@ -25,6 +27,7 @@ ul li a {
 	font-size: 13px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 
 }
 ul li a:hover {
@@ -83,6 +86,7 @@ ul li a:hover {
 }
 .button-school-stuff-1:hover {
 	font-size: 34px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 .button-school-stuff-2 {
 	width: 327px;
@@ -98,6 +102,7 @@ ul li a:hover {
 }
 .button-school-stuff-2:hover {
 	font-size: 34px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 .button-school-stuff-mv {
 	width: 327px;
@@ -113,6 +118,7 @@ ul li a:hover {
 }
 .button-school-stuff-mv:hover {
 	font-size: 27px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 .button-school-stuff-3 {
 	width: 327px;
@@ -128,6 +134,7 @@ ul li a:hover {
 }
 .button-school-stuff-3:hover {
 	font-size: 34px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 .button-school-stuff-4 {
 	width: 327px;
@@ -142,6 +149,7 @@ ul li a:hover {
 }
 .button-school-stuff-4:hover {
 	font-size: 34px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 .button-school-stuff-5 {
@@ -158,6 +166,7 @@ ul li a:hover {
 }
 .button-school-stuff-5:hover {
 	font-size: 34px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 .button-school-stuff-6 {
@@ -174,6 +183,7 @@ ul li a:hover {
 }
 .button-school-stuff-6:hover {
 	font-size: 34px;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔺</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 .hr-btwn-book {
