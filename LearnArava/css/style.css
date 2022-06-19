@@ -5,6 +5,7 @@ body {
 .logo {
 	width: 120px;
 }
+
 header {
 	display: flex;
 	justify-content: space-between;
