@@ -121,7 +121,7 @@ figure:hover img{
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
+.img {
     display: block;
     width: 100%;
     object-fit: cover;

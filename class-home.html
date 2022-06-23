@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/x-icon" href="icon.ico">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/transitions.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/transitions.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 10K</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
@@ -13,17 +17,63 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	<title>Arava - Class 10-K | Home</title>
 </head>
-<body>
-	
+<style>
+.wrap {
+  overflow-x:hidden;
+}
+.slideInRight {
+  animation-name: slideInFromLeft;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 
-	<header>
-		<div>
-			<a href=""><img src="images/logo.png" class="logo"></a>
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+}
+.wrap {
+  overflow-x:hidden;
+}
+.slideInRight-1 {
+  animation-name: slideInRight;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+		body {
+    background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	margin: 0;
+
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+</style>
+<body>
+	<nav>
+    <header>
+		<div class="logo-sect">
+			<a href=""><img src="images/arava.png" class="logo"></a>
 		</div>
 			<nav>
 				<ul>
@@ -33,51 +83,53 @@
 				</ul>
 			</nav>
 	</header>
-	<div class="alert">
-  	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  	<h1 class="schoolstuffs">Reminder</h1><marquee><h1 class="reminder">1) @Artificial Intelligence Examination on Thursday 23-06-2022 2) Maths Homework given, 5th question</h1></marquee>
+</nav>
+
+	<section class="spotlight">
+		<img src="images/banner.svg" class="banner">
+	</section>
+	<div class="slideInRight-1 animated">
+	<div class="alert" >
+  		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  		<strong>Reminder!</strong><marquee>1) @Ajex C Binu, Don't forget to bring Passport copy as well as your Emirates ID copy. 2) Islamic Examination on 21-06-2022</marquee>
 	</div>
-	
-	<section id="spotlight-view">
-		<img src="images/s.svg" class="banner" alt="JUST A SEC...">
-	</section>
-
+</div>
 	<section id="school-stuffs">
 		<div><img src="images/Confetti.png" class="confetti"></div>
-		<center>
-		<div id="school-stuffs-border">
-			<h1 class="schoolstuffs">School Stuffs</h1><hr class="hr-btwn-schoolstuff">
-			<div id="school-stuffs-grid">
-				<div>
-				<img src="images/books.png" class="book">
+			<center>
+				<div id="school-stuffs-border">
+					<h1 class="schoolstuffs">School Stuffs</h1><hr class="hr-btwn-schoolstuff">
+					<div id="school-stuffs-grid">
+						<div>
+							<img src="images/books.png" class="book">
+						</div>
+					<div>
+						<a href="belltimings.html">
+						<button class="button-school-stuff-1"><i class="fa fa-bell" id="icon"></i>Bell Timings</button></a><br>
+						<a href="timetable.html">
+						<button class="button-school-stuff-2"><i class="fa fa-calendar" id="icon"></i>Time Table</button></a><br>
+						<a href="textpdf.html">
+						<button class="button-school-stuff-3"><i class="fa fa-book" id="icon"></i>TextBook PDFs</button></a>
+					</div>
 				</div>
-				<hr class="hr-btwn-book">
-			<div>
-				<a href="belltimings.html">
-				<button class="button-school-stuff-1"><i class="fa fa-bell" id="icon"></i>Bell Timings</button></a><br>
-				<a href="timetable.html">
-				<button class="button-school-stuff-2"><i class="fa fa-calendar" id="icon"></i>Time Table</button></a><br>
-				<a href="textpdf.html">
-				<button class="button-school-stuff-3"><i class="fa fa-book" id="icon"></i>TextBook PDFs</button></a>
 			</div>
-		</div>
-		</div>
-		</center>
+			</center>
 		<div><img src="images/Confetti.png" class="confetti"></div>
 	</section>
-	
-	<img src="images/quote.png" class="quote">
+
+	<section class="second-section">
+		<img src="images/quote.png" class="quote-1">
+	</section>
 
 	<section id="school-stuffs">
-		<div><img src="images/maxy.png" class="maxyhead1" id="rotate">></div>
+		<div><img src="images/maxy.png" class="maxyhead1" id="rotate"></div>
 		<center>
 		<div id="school-stuffs-border">
 			<h1 class="schoolstuffs">School Funs</h1><hr class="hr-btwn-schoolstuff">
 			<div id="school-stuffs-grid">
 				<div>
-				<img src="images/9kboyss.png" class="book">
+				<img src="images/9kboyss.png" class="kboys">
 				</div>
-				<hr class="hr-btwn-book">
 			<div>
 				<a href="classparty.html">
 				<button class="button-school-stuff-4"><ion-icon name="ice-cream" id="icon" ></ion-icon>9-K Class Party</button></a><br>
@@ -93,42 +145,41 @@
 	</section>
 
 
-	<img src="images/believe-yourself.png" class="quote1">
-	<center>
-	<section id="art-hrishi">
-		<div><a href="https://aravaweb.github.io/nowuseeme/posts/hrishi-3.jpg" target="_blank"><img src="https://aravaweb.github.io/nowuseeme/posts/hrishi-3.jpg" class="art"></a></div>
-		<div>
-			<h1 class="art-title">An Art Done by Hrishikesh Harishkumar</h1>
-			<p class="art-description">Art done traditionally... manhwa character sung jin woo from solo leveling</p>
-		</div>
+	<section class="third">
+		<img src="images/believe-yourself.png" class="quote2">
 	</section>
-
+	<center>
+		<section id="art-hrishi">
+			<div><a href="https://aravaweb.github.io/nowuseeme/posts/hrishi-3.jpg" target="_blank"><img src="https://aravaweb.github.io/nowuseeme/posts/hrishi-3.jpg" class="art"></a></div>
+			<div>
+				<h1 class="art-title">An Art Done by Hrishikesh Harishkumar</h1>
+				<p class="art-description">Art done traditionally... manhwa character sung jin woo from solo leveling</p>
+			</div>
+		</section>
 	</center>
+
 	<section id="school-stuffs">
 		<div><img src="images/rose.png" class="maxyhead1"></div>
 		<center>
-		<div id="school-stuffs-border">
-			<h1 class="Monitors">School Informination</h1><hr class="hr-btwn-schoolstuff">
-			<div id="school-stuffs-grid">
+			<div id="school-stuffs-border">
+				<h1 class="schoolinfo">School Informination</h1><hr class="hr-btwn-schoolstuff">
+				<div id="school-stuffs-grid">
 				<div>
-				<img src="images/school.png" class="book">
+				<img src="images/school.png" class="school">
 				</div>
-				<hr class="hr-btwn-book">
-			<div>
-				<a href="bestdressed.html">
-				<button class="button-school-stuff-1"><ion-icon name="shirt" id="icon"></ion-icon>Best Dressed</button></a><br>
-				<a href="monitors.html">
-				<button class="button-school-stuff-mv"><ion-icon name="shield" id="icon"></ion-icon>Monitors & Volunteers</button></a><br>
-				<a href="circular.html">
-				<button class="button-school-stuff-3"><ion-icon name="eye" id="icon"></ion-icon>Circulars</button></a>
+				<div>
+					<a href="bestdressed.html">
+					<button class="button-school-stuff-1"><ion-icon name="shirt" id="icon"></ion-icon>Best Dressed</button></a><br>
+					<a href="monitors.html">
+					<button class="button-school-stuff-mv"><ion-icon name="shield" id="icon"></ion-icon>Monitors & Volunteers</button></a><br>
+					<a href="circular.html">
+					<button class="button-school-stuff-3"><ion-icon name="eye" id="icon"></ion-icon>Circulars</button></a>
+				</div>
 			</div>
-		</div>
 		</div>
 		</center>
 		<div><img src="images/rose.png" class="maxyhead2"></div>
 	</section>
-
-	<img src="images/happy.png" class="quote2">
 
 	<section id="school-stuffs">
 		<div><img src="images/book2.png" class="confetti" ></div>
@@ -139,7 +190,6 @@
 				<div>
 				<img src="images/9kboyss.png" class="book">
 				</div>
-				<hr class="hr-btwn-book">
 			<div>
 				<a href="LearnArava/learnarava.html">
 				<button class="button-school-stuff-1"><ion-icon name="arrow-redo" id="icon"></ion-icon>Learn Arava</button></a><br>
@@ -154,9 +204,10 @@
 		<div><img src="images/book2.png" class="confetti"></div>
 	</section>
 
+
 	<footer id="footer">
 		<div>
-			<img src="images/logo.png" class="logo-footer">
+			<img src="images/arava.png" class="logo-footer">
 			<h1 class="created" >Copyright © by Aravind Shiju</h1>
 			<h1 class="created" >All rights reserved</h1>
 			

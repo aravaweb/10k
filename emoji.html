@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="icon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/transitions.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
@@ -18,10 +17,41 @@
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<title>Class 10K | Emojis</title>
 </head>
+<style>
+        body {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+.popOver {
+    -webkit-animation: bummer 0.77s;
+    animation: bummer 0.77s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; /* Add this so that your modal doesn't 
+                                      close after the animation completes */
+}
+
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1); 
+    }
+}
+
+@keyframes bummer {
+    100% {
+        transform: scale(1,1); 
+    }
+}
+</style>
 <body>
 	<header>
 		<div>
-			<a href="class-home.html"><img src="images/logo.png" class="logo"></a>
+			<a href="class-home.html"><img src="images/arava.png" class="logo"></a>
 		</div>
 			<nav>
 				<ul>
@@ -36,11 +66,11 @@
 		<h1 class="heading">You Can ADD them to your ZOOM emojis</h1>
 		<p class="des">*Right click and then save image as...</p>
 		<br>
-	<section>
+	<section  class="popOver">
 		<main class="gallery gallery__content--flow">
 		<a href="images/emoji/emoji (1).jpg">
         <figure>
-            <img src="images/emoji/emoji (1).jpg">
+            <img src="images/emoji/emoji (1).jpg"class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -49,7 +79,7 @@
 		</a>
 		<a href="images/emoji/emoji (2).jpg">
         <figure>
-            <img src="images/emoji/emoji (2).jpg">
+            <img src="images/emoji/emoji (2).jpg"class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -58,7 +88,7 @@
         </a>
 		<a href="images/emoji/emoji (3).jpg">
         <figure>
-            <img src="images/emoji/emoji (3).jpg">
+            <img src="images/emoji/emoji (3).jpg"class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -67,7 +97,7 @@
         </a>
 		<a href="images/emoji/emoji (4).jpg">
         <figure>
-            <img src="images/emoji/emoji (4).jpg">
+            <img src="images/emoji/emoji (4).jpg"class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -76,7 +106,7 @@
         </a>
 		<a href="images/emoji/emoji (5).jpg">
         <figure>
-            <img src="images/emoji/emoji (5).jpg">
+            <img src="images/emoji/emoji (5).jpg"class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -85,7 +115,7 @@
         </a>
 		<a href="images/emoji/emoji (6).jpg">
         <figure>
-            <img src="images/emoji/emoji (6).jpg">
+            <img src="images/emoji/emoji (6).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -94,7 +124,7 @@
     	</a>
 		<a href="images/emoji/emoji (7).jpg">
         <figure>
-            <img src="images/emoji/emoji (7).jpg">
+            <img src="images/emoji/emoji (7).jpg"class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -103,7 +133,7 @@
         </a>
 		<a href="images/emoji/emoji (8).jpg">
         <figure>
-            <img src="images/emoji/emoji (8).jpg">
+            <img src="images/emoji/emoji (8).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -112,7 +142,7 @@
         </a>
 		<a href="images/emoji/emoji (9).jpg">
         <figure>
-            <img src="images/emoji/emoji (9).jpg">
+            <img src="images/emoji/emoji (9).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -121,7 +151,7 @@
         </a>
 		<a href="images/emoji/emoji (10).gif">
         <figure>
-            <img src="images/emoji/emoji (10).gif">
+            <img src="images/emoji/emoji (10).gif" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -130,7 +160,7 @@
         </a>
 		<a href="images/emoji/emoji (11).jpg">
         <figure>
-            <img src="images/emoji/emoji (11).jpg">
+            <img src="images/emoji/emoji (11).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -139,7 +169,7 @@
         </a>
 		<a href="images/emoji/emoji (12).jpg">
         <figure>
-            <img src="images/emoji/emoji (12).jpg">
+            <img src="images/emoji/emoji (12).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -148,7 +178,7 @@
         </a>
 		<a href="images/emoji/emoji (13).jpg">
         <figure>
-            <img src="images/emoji/emoji (13).jpg">
+            <img src="images/emoji/emoji (13).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -157,7 +187,7 @@
         </a>
 		<a href="images/emoji/emoji (14).jpg">
         <figure>
-            <img src="images/emoji/emoji (14).jpg">
+            <img src="images/emoji/emoji (14).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -166,7 +196,7 @@
         </a>
 		<a href="images/emoji/emoji (15).jpg">
         <figure>
-            <img src="images/emoji/emoji (15).jpg">
+            <img src="images/emoji/emoji (15).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -175,7 +205,7 @@
         </a>
 		<a href="images/emoji/emoji (16).jpg">
         <figure>
-            <img src="images/emoji/emoji (16).jpg">
+            <img src="images/emoji/emoji (16).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -184,7 +214,7 @@
         </a>
 		<a href="images/emoji/emoji (17).jpg">
         <figure>
-            <img src="images/emoji/emoji (17).jpg">
+            <img src="images/emoji/emoji (17).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -193,7 +223,7 @@
         </a>
 		<a href="images/emoji/emoji (18).jpg">
         <figure>
-            <img src="images/emoji/emoji (18).jpg">
+            <img src="images/emoji/emoji (18).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -202,7 +232,7 @@
         </a>
 		<a href="images/emoji/emoji (19).jpg">
         <figure>
-            <img src="images/emoji/emoji (19).jpg">
+            <img src="images/emoji/emoji (19).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
@@ -211,7 +241,7 @@
         </a>
 		<a href="images/emoji/emoji (20).jpg">
         <figure>
-            <img src="images/emoji/emoji (20).jpg">
+            <img src="images/emoji/emoji (20).jpg" class="img">
             <figcaption class="header__caption" role="presentation">
                 <h1 class="title title--primary">Right click</h1>
                 <h2 class="title title--secondary">and save image as...</h2>
