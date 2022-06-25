@@ -21,17 +21,14 @@ body {
 .logo:hover {
 	filter: contrast(23%);
 }
-nav {
-	position: sticky; /* Set the navbar to fixed position */
-	top: 0; /* Position the navbar at the top of the page */
-}
+
 header {
 	display: flex;
 	justify-content: space-between;
-	background-color: transparent;
-	position: sticky; /* Set the navbar to fixed position */
-	top: 0; /* Position the navbar at the top of the page */
-	width: 100%; /* Full width */
+	background-color: #121212;
+	position: sticky; 
+	top: 0; 
+	width: 100%; /
 }
 ul li {
 	display: inline-block;
